@@ -1,24 +1,21 @@
 <template>
   <div id="app">
-    <nav
-      class="text-white text-2xl fixed top-0 flex justify-between bg-black w-full">
-      <div class="p-2">
+    <nav class="text-white text-2xl fixed top-0 flex flex-col md:flex-row justify-between bg-black w-full">
+      <div class="py-2 px-4">
         <a href="#" class="mr-2 hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/">Acasa</router-link></a>
 <!-- dropdown -->
           <div class="inline-block relative">
-        <button @click="isOpen=!isOpen" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Documentatie</button>
-    <div :class="isOpen ? 'block' : 'hidden'" class="absolute bg-black mr-10 mt-2 top-6">
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
-    </div>
+            <button @click="isOpen=!isOpen" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Documentatie</button>
+            <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
+              <a href="#" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
+              <a href="#" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
+              <a href="#" class="w-full block px-2 text-white rounded-b font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
+            </div>
           </div>
-
-        <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block">Testare</a>
+          <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block">Testare</a>
 
       </div>
-
-      <div class="p-2">
+      <div class="py-2 px-4">
         <a href="#" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/About"><i class="fa fa-address-book pr-2"></i>Contact</router-link></a>
       </div>
     </nav>
