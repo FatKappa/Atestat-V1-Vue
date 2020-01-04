@@ -10,13 +10,13 @@
       </div>
     </div>
 
-    <div id="start" class="bg-white min-h-screen px-6 md:px-10">
-      <h1 class="text-black text-4xl pt-12">1)Introducere</h1>
+    <div id="start" class="bg-white min-h-screen md:px-10">
+      <h1 class="text-black text-4xl pt-16">1)Introducere</h1>
     </div>
-    <div class="bg-black min-h-screen px-6 md:px-10">
-      <h1 class="text-white text-4xl pt-12">1)Introducere</h1>
+    <div id="part2" class="bg-black min-h-screen px-6 md:px-10">
+      <h1 class="text-white text-4xl pt-16">1)Introducere</h1>
     </div>
   </div>
 </template>
-
-<script></script>
+<script>
+</script>
