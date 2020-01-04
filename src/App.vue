@@ -1,24 +1,29 @@
 <template>
   <div id="app">
-    <nav class="text-white text-2xl fixed top-0 flex flex-col md:flex-row justify-between bg-black w-full">
-      <div class="py-2 px-4">
-        <a href="#" class="mr-2 hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/">Acasa</router-link></a>
-<!-- dropdown -->
+    <nav class="flex justify-between bg-black py-5 md:py-8 px-4">
+      <p class="inline md:hidden text-white text-xl font-bold">Atestat</p>
+      <div @click="menuNavOpen=!menuNavOpen" class="flex cursor-pointer md:hidden hover:bg-blue-700 px-3 items-center rounded"><i class="fa fa-bars text-white text-xl"></i></div>
+      <div :class="{'hidden':!menuNavOpen}" class="bg-black mt-16 md:mt-0 md:flex text-white text-2xl fixed top-0 left-0 flex-col md:flex-row justify-between w-full md:items-center">
+        <div class="py-2 px-4 flex flex-col md:flex-row">
+          <a href="#" class="mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl"><router-link to="/">Acasa</router-link></a>
+          <!-- dropdown -->
           <div class="inline-block relative">
-            <button @click="isOpen=!isOpen" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Documentatie</button>
+            <button @click="isOpen=!isOpen" class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl">Documentatie</button>
             <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
               <a href="#" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
               <a href="#" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
               <a href="#" class="w-full block px-2 text-white rounded-b font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
             </div>
           </div>
-          <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block">Testare</a>
+          <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block  text-xl md:text-2xl">Testare</a>
 
-      </div>
-      <div class="py-2 px-4">
-        <a href="#" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/About"><i class="fa fa-address-book pr-2"></i>Contact</router-link></a>
+        </div>
+        <div class="py-2 px-4 border-t md:border-0">
+          <a href="#" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600  text-xl md:text-2xl"><router-link to="/About"><i class="fa fa-address-book pr-2 hidden md:inline"></i>Contact</router-link></a>
+        </div>
       </div>
     </nav>
+
     <router-view />
     <a v-if="showTopBtn" id="btn-top" href="#" class="gotop rounded-lg"><i class="fa fa-home"></i></a>
   </div>
@@ -94,8 +99,8 @@ html {
     data: function() {
       return {
         showTopBtn: false,
-          isOpen: false,
-
+        isOpen: false,
+        menuNavOpen: false
       }
     },
     mounted(){
