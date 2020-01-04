@@ -4,17 +4,20 @@
       class="text-white text-2xl fixed top-0 flex justify-between bg-black w-full">
       <div class="p-2">
         <a href="#" class="mr-2 hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/">Acasa</router-link></a>
+<!-- dropdown -->
+          <div class="inline-block relative">
+        <button @click="isOpen=!isOpen" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Documentatie</button>
+    <div :class="isOpen ? 'block' : 'hidden'" class="absolute bg-black mr-10 mt-2 top-6">
+      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
+      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
+      <a href="#" class="block px-2 text-white font-semibold rounded hover:bg-black pt-2 mr-20 hover:bg-blue-600 hover:text-white ">LINK1</a>
+    </div>
+          </div>
 
-<div class="inline-block absolute">
-        <a @click="isOpen=!isOpen" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Documentatie</a>
-  <div :class="isOpen ? 'block' : 'hidden'">
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:text-blue-600">LINK1</a>
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:text-blue-600">LINK1</a>
-      <a href="#" class="block px-2 text-white font-semibold rounded hover:text-blue-600">LINK1</a>
-  </div>
-</div>
-        <a href="#" class=" mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600">Testare</a>
+        <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block">Testare</a>
+
       </div>
+
       <div class="p-2">
         <a href="#" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600"><router-link to="/About"><i class="fa fa-address-book pr-2"></i>Contact</router-link></a>
       </div>
