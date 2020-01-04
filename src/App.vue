@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="flex justify-between bg-black py-5 md:py-8 px-4">
+    <nav class="fixed flex justify-between bg-black py-5 md:py-8 px-4 w-full">
       <p class="inline md:hidden text-white text-xl font-bold">Atestat</p>
       <div @click="menuNavOpen=!menuNavOpen" class="flex cursor-pointer md:hidden hover:bg-blue-700 px-3 items-center rounded"><i class="fa fa-bars text-white text-xl"></i></div>
       <div :class="{'hidden':!menuNavOpen}" class="bg-black mt-16 md:mt-0 md:flex text-white text-2xl fixed top-0 left-0 flex-col md:flex-row justify-between w-full md:items-center">
