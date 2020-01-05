@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="min-h-screen purple-gradient flex items-center justify-center color-blue-600 px-6 md:px-10">
+    <div id="inceput" class="min-h-screen purple-gradient flex items-center justify-center color-blue-600 px-6 md:px-10">
       <div class="" name="top">
-        <p class="text-white text-4xl">Buna ziua!</p>
+        <p class="text-white text-4xl ">Buna ziua!</p>
         <p class="text-white text-3xl mt-24">
           Bine ati venit la prezentarea trashului meu de proiect
         </p>
@@ -10,15 +10,20 @@
       </div>
     </div>
 
-
-    <div class="bg-white min-h-screen md:px-10">
-      <div  id="start" class="m-bottom" ></div>
-      <h1 class="text-black text-4xl pt-16">1)Introducere</h1>
+    <div id="start" class="bg-white min-h-screen md:px-10">
+      <h1 class="text-black text-4xl pt-16">1. Introducere</h1>
     </div>
     <div id="part2" class="bg-black min-h-screen px-6 md:px-10">
-      <h1 class="text-white text-4xl pt-16">1)Introducere</h1>
+      <h1 class="text-white text-4xl pt-16">2. Evolutie</h1>
+    </div>
+    <div id="part3" class="bg-white min-h-screen px-6 md:px-10">
+      <h1 class="text-black text-4xl pt-16">3. AMD pe piata internationala</h1>
+    </div>
+    <div id="part4" class="bg-black min-h-screen px-6 md:px-10">
+      <h1 class="text-white text-4xl pt-16">4. Posibil inca ceva</h1>
     </div>
   </div>
+
 </template>
 <script>
 </script>

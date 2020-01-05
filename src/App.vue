@@ -6,28 +6,29 @@
       <div @click="menuNavOpen=!menuNavOpen" class="flex cursor-pointer md:hidden hover:bg-blue-700 px-3 items-center rounded"><i class="fa fa-bars text-white text-xl"></i></div>
       <div :class="{'hidden':!menuNavOpen}" class="bg-black mt-16 md:mt-0 md:flex text-white text-2xl fixed top-0 left-0 flex-col md:flex-row justify-between w-full md:items-center">
         <div class="py-2 px-4 flex flex-col md:flex-row">
-          <a href="#" class="mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl"><router-link to="/">Acasa</router-link></a>
+          <a @click="isOpen=false" class="mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl"><router-link to="/">Acasa</router-link></a>
           <!-- dropdown -->
           <div class="inline-block relative">
             <button @click="isOpen=!isOpen"  class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden">Documentatie</button>
             <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
-              <a href="#start" @click="isOpen=false" class="w-full block px-2 text-white font-semibold bg-black  pt-2 hover:bg-blue-700 hover:text-white  ">LINK1</a>
-              <a href="#part2" @click="isOpen=false" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white">LINK1</a>
-              <a href="" @click="isOpen=false" class="w-full block px-2 text-white rounded-b-lg font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
+              <a href="#start" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">1. Introducere</a>
+              <a href="#part2" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">2. Evolutie</a>
+              <a href="#part3" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">3. AMD pe piata internationala</a>
+              <a href="#part4" @click="isOpen=false" class="w-full overflow-auto block p-2 text-white bg-black text-lg hover:bg-blue-700 hover:text-white rounded-b-lg">4. Posibil inca ceva</a>
             </div>
           </div>
           <!-- dropdown  terminat -->
-          <a href="#" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block  text-xl md:text-2xl">Testare</a>
+          <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block  text-xl md:text-2xl">Testare</a>
           <!-- mobile responsive terminat-->
         </div>
         <div class="py-2 px-4 border-t md:border-0">
-          <a href="#" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600  text-xl md:text-2xl"><router-link to="/About"><i class="fa fa-address-book pr-2 hidden md:inline"></i>Contact</router-link></a>
+          <a href="#" @click="isOpen=false" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600  text-xl md:text-2xl"><router-link to="/About"><i class="fa fa-address-book pr-2 hidden md:inline"></i>Contact</router-link></a>
         </div>
       </div>
     </nav>
 
     <router-view />
-    <a v-if="showTopBtn" id="btn-top" href="#" class="gotop rounded-lg"><i class="fa fa-home"></i></a>
+    <a @click="isOpen=false" v-if="showTopBtn" id="btn-top" href="#" class="gotop rounded-lg"><i class="fa fa-home"></i></a>
   </div>
 </template>
 
