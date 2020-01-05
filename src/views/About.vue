@@ -28,11 +28,11 @@
     </div>
     <div class="flex">
         <a class="text-white text-2xl mt-20 mr-4" target="_blank">2) Tailwindcss:</a><a href="https://tailwindcss.com">
-        <img src="@/assets/images/logo.png" class="h-16 w-16 mt-16"></a>
+        <img src="@/assets/images/tcss.png" class="h-16 w-16 mt-16 rounded-full"></a>
     </div>
     <div class="flex">
         <a class="text-white text-2xl mt-24 mr-4" target="_blank">3) Github:</a><a href="https://github.com">
-        <img src="@/assets/images/logo.png" class="h-16 w-16 mt-20"></a>
+        <img src="@/assets/images/git.svg" class="h-16 w-16 mt-20"></a>
     </div>
 </div>
           <div class="w-5/12 min-h-screen ml-4">
