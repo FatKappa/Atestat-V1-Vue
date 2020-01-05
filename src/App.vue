@@ -9,7 +9,7 @@
           <a @click="isOpen=false" class="mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl"><router-link to="/">Acasa</router-link></a>
           <!-- dropdown -->
           <div class="inline-block relative">
-            <button @click="isOpen=!isOpen"  class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden">Documentatie</button>
+            <button @click="isOpen=!isOpen"  class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden"><router-link to="/">Documentatie</router-link></button>
             <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
               <a href="#start" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">1. Introducere</a>
               <a href="#part2" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">2. Evolutie</a>
@@ -18,7 +18,7 @@
             </div>
           </div>
           <!-- dropdown  terminat -->
-          <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block  text-xl md:text-2xl">Testare</a>
+          <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/views/Testare">Testare</router-link></a>
           <!-- mobile responsive terminat-->
         </div>
         <div class="py-2 px-4 border-t md:border-0">
