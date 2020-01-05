@@ -9,11 +9,11 @@
           <a href="#" class="mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl"><router-link to="/">Acasa</router-link></a>
           <!-- dropdown -->
           <div class="inline-block relative">
-            <button @click="isOpen=!isOpen" class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden">Documentatie</button>
+            <button @click="isOpen=!isOpen"  class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden">Documentatie</button>
             <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
-              <a href="#start" class="w-full block px-2 text-white font-semibold bg-black  pt-2 hover:bg-blue-700 hover:text-white  ">LINK1</a>
-              <a href="#part2" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white">LINK1</a>
-              <a href="" class="w-full block px-2 text-white rounded-b-lg font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
+              <a href="#start" @click="isOpen=false" class="w-full block px-2 text-white font-semibold bg-black  pt-2 hover:bg-blue-700 hover:text-white  ">LINK1</a>
+              <a href="#part2" @click="isOpen=false" class="w-full block px-2 text-white font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white">LINK1</a>
+              <a href="" @click="isOpen=false" class="w-full block px-2 text-white rounded-b-lg font-semibold bg-black pt-2 hover:bg-blue-700 hover:text-white ">LINK1</a>
             </div>
           </div>
           <!-- dropdown  terminat -->

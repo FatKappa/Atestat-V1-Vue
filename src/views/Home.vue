@@ -10,7 +10,9 @@
       </div>
     </div>
 
-    <div id="start" class="bg-white min-h-screen md:px-10">
+
+    <div class="bg-white min-h-screen md:px-10">
+      <div  id="start" class="m-bottom" ></div>
       <h1 class="text-black text-4xl pt-16">1)Introducere</h1>
     </div>
     <div id="part2" class="bg-black min-h-screen px-6 md:px-10">
