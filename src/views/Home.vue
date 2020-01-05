@@ -20,7 +20,7 @@
       <h1 class="text-black text-4xl pt-16">3. AMD pe piata internationala</h1>
     </div>
     <div id="part4" class="bg-black min-h-screen px-6 md:px-10">
-      <h1 class="text-white text-4xl pt-16">4. Posibil inca ceva</h1>
+      <h1 class="text-white text-4xl pt-16">4. Sumar</h1>
     </div>
   </div>
 

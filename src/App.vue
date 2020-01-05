@@ -14,11 +14,11 @@
               <a href="#start" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">1. Introducere</a>
               <a href="#part2" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">2. Evolutie</a>
               <a href="#part3" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">3. AMD pe piata internationala</a>
-              <a href="#part4" @click="isOpen=false" class="w-full overflow-auto block p-2 text-white bg-black text-lg hover:bg-blue-700 hover:text-white rounded-b-lg">4. Posibil inca ceva</a>
+              <a href="#part4" @click="isOpen=false" class="w-full overflow-auto block p-2 text-white bg-black text-lg hover:bg-blue-700 hover:text-white rounded-b-lg">4. Sumar</a>
             </div>
           </div>
           <!-- dropdown  terminat -->
-          <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/views/Testare">Testare</router-link></a>
+          <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/Testare">Testare</router-link></a>
           <!-- mobile responsive terminat-->
         </div>
         <div class="py-2 px-4 border-t md:border-0">

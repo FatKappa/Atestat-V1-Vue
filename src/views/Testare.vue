@@ -1,6 +1,7 @@
 <template>
-    <div>
-    <h1 class="text-center text-xl text-black pt-24">Not done yet</h1>
+    <div class="px-6 md:px-10 bg-black">
+        <h1 class="pt-24 text-center"></h1>
+
     </div>
 </template>
 
