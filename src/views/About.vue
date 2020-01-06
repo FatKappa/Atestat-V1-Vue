@@ -23,15 +23,15 @@
 
     <h1 class="text-white text-2xl mt-24 uppercase">II. Surse de inspiratie:</h1>
     <div class="flex">
-        <a class="text-white text-2xl mt-16 mr-4" target="_blank">1) Vue.Js:</a><a href="https://vuejs.org">
+        <a class="text-white text-2xl mt-16 mr-4">1) Vue.Js:</a><a href="https://vuejs.org" target="_blank">
         <img src="@/assets/images/logo.png" class="h-16 w-16 mt-13"></a>
     </div>
     <div class="flex">
-        <a class="text-white text-2xl mt-20 mr-4" target="_blank">2) Tailwindcss:</a><a href="https://tailwindcss.com">
+        <a class="text-white text-2xl mt-20 mr-4">2) Tailwindcss:</a><a href="https://tailwindcss.com" target="_blank">
         <img src="@/assets/images/tcss.png" class="h-16 w-16 mt-16 rounded-full"></a>
     </div>
     <div class="flex">
-        <a class="text-white text-2xl mt-24 mr-4" target="_blank">3) Github:</a><a href="https://github.com">
+        <a class="text-white text-2xl mt-24 mr-4">3) Github:</a><a href="https://github.com" target="_blank">
         <img src="@/assets/images/git.svg" class="h-16 w-16 mt-20"></a>
     </div>
 </div>

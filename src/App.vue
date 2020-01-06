@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app"  >
     <nav class="fixed flex justify-between bg-black py-5 md:py-8 px-4 w-full">
       <p class="inline md:hidden text-white text-xl font-bold">Atestat</p>
       <!-- mobile responsive -->
@@ -20,7 +20,7 @@
           <!-- dropdown  terminat -->
           <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/Testare">Testare</router-link></a>
           <!-- mobile responsive terminat-->
-        </div>
+        </div >
         <div class="py-2 px-4 border-t md:border-0">
           <a href="#" @click="isOpen=false" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600  text-xl md:text-2xl"><router-link to="/About"><i class="fa fa-address-book pr-2 hidden md:inline"></i>Contact</router-link></a>
         </div>
