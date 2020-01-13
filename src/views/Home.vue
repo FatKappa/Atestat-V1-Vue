@@ -4,7 +4,7 @@
       <div class="" name="top">
         <p class="text-white text-4xl ">Buna ziua!</p>
         <p class="text-white text-3xl mt-24">
-          Bine ati venit la prezentarea trashului meu de proiect
+          Bine ati venit la prezentarea proiectului meu!
         </p>
         <p class="text-white text-3xl mt-24"><a href="#start">Sa incepem</a></p>
       </div>

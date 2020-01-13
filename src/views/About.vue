@@ -2,6 +2,7 @@
   <div class="px-6 md:px-10 bg-black min-h-screen text-white">
   <!-- stanga -->
       <div class="flex flex-wrap">
+
       <div class="mt-6 xl:text-2xl md:text-lg">
           <div class="w-full">
               <h1 class="pt-24 text-white uppercase">I. Metode de contact:</h1>
@@ -20,7 +21,7 @@
          </div>
       </div>
               <!-- mijloc -->
-<div class="w-1/4 min-h-screen ml-4 xl:text-2xl md:text-lg md:mt-6">
+<div class="w-1/4 min-h-screen ml-4 xl:text-2xl md:text-lg md:mt-6 bg-green-800">
         <div class="md:w-full">
     <h1 class=" mt-24 uppercase">II. Surse de inspiratie:</h1>
     <div class="flex">
@@ -38,13 +39,14 @@
         </div>
 </div>
               <!-- dreapta -->
-          <div class="w-5/12 ml-4 md:text-lg">
-              <div class="mt-31">
+          <div class="w-5/12 ml-4 md:text-lg lg:text-2xl sm:min-h-screen bg-yellow-800">
+              <div class="mt-31 sm:w-full">
     <h1 class="uppercase">III. Scurt istoric</h1>
     <p class="text-base mt-12 ml-4">In curand</p>
     </div>
       </div>
-</div>
+
+          </div>
       </div>
 </template>
 <style>
