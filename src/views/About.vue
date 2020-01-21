@@ -21,7 +21,7 @@
          </div>
       </div>
               <!-- mijloc -->
-<div class="w-1/4 min-h-screen ml-4 xl:text-2xl md:text-lg md:mt-6 bg-green-800">
+<div class="w-1/4 min-h-screen ml-4 xl:text-2xl md:text-lg md:mt-6">
         <div class="md:w-full">
     <h1 class=" mt-24 uppercase">II. Surse de inspiratie:</h1>
     <div class="flex">
@@ -39,7 +39,7 @@
         </div>
 </div>
               <!-- dreapta -->
-          <div class="w-5/12 ml-4 md:text-lg lg:text-2xl sm:min-h-screen bg-yellow-800">
+          <div class="w-5/12 ml-4 md:text-lg lg:text-2xl sm:min-h-screen">
               <div class="mt-31 sm:w-full">
     <h1 class="uppercase">III. Scurt istoric</h1>
     <p class="text-base mt-12 ml-4">In curand</p>
