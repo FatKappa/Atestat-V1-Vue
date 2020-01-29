@@ -83,7 +83,18 @@
       <workItem from="1578321569487" duration="526000" />
       <workItem from="1578324966847" duration="388000" />
       <workItem from="1578326970735" duration="593000" />
+<<<<<<< HEAD
       <workItem from="1578357362577" duration="73000" />
+=======
+      <workItem from="1578432211874" duration="2223000" />
+      <workItem from="1578434632262" duration="23000" />
+      <workItem from="1578438439885" duration="478000" />
+      <workItem from="1578937335301" duration="367000" />
+      <workItem from="1578937752167" duration="49000" />
+      <workItem from="1578938569347" duration="49000" />
+      <workItem from="1579629562852" duration="17000" />
+      <workItem from="1579629597187" duration="311000" />
+>>>>>>> 5d7263d331ed07a53ece79abacb2dfb5766bcd22
     </task>
     <servers />
   </component>
@@ -91,6 +102,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579629572650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="93" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1579629572650" />
     <state x="461" y="120" key="FileChooserDialogImpl" timestamp="1578100511518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
