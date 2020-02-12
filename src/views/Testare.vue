@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 md:px-10 bg-black">
+    <div class="px-6 md:px-10 bg-black min-h-screen">
         <h1 class="pt-24 text-center"></h1>
 
     </div>

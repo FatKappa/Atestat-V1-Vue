@@ -7,7 +7,7 @@
         <p class="text-white text-3xl mt-12">--Proiect atestat--</p>
         <div class="text-left">
         <p class="text-white text-xl mt-48">Proiect realizat de: Istrate Nicolae-Vlad</p>
-        <p class="text-white text-xl">Profesor coordonator: Cirstea Cornelia</p>
+        <p class="text-white text-xl">Profesor coordonator: Cîrstea Cornelia</p>
       </div>
       </div>
     </div>
