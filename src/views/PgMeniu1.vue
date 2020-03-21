@@ -1,7 +1,11 @@
 <template>
-  <div>
-<div class="min-h-screen purple-gradient flex items-center color-blue-600 px-6 md:px-10 bg-black">
-<h1 class="color-black  ">SALKDNLASDJAKSJDLASD</h1>
+<div class="min-h-screen purple-gradient flex px-6 md:px-10">
+  <div class="flex flex-wrap color-black mt-24">
+    <div class="text-center bg-black w-full">
+
+    <p class="text-3xl">Istoria companiei AMD</p>
+
+  </div>
 </div>
 </div>
 </template>
@@ -11,3 +15,6 @@
         name: "PgMeniu1"
     }
 </script>
+<style>
+
+</style>

@@ -7,7 +7,7 @@
 
   <form action="autoevaluare.php" method="post">
 
-  <div class="mt-12 mb-5">Nume: <input class="bg-transparent border-black ml-5" type="text" name="Nume" placeholder="    Scrieti numele aici"> <br>
+  <div class="mt-12 mb-5">Nume: <input class="bg-transparent border-black ml-6" type="text" name="Nume" placeholder="   Scrieti numele aici"> <br>
   Prenume: <input class="bg-transparent border-black" type="text" name="Prenume" placeholder="    Scrieti prenumele aici"> <br>
   Clasa: <input class="bg-transparent border-black ml-6" type="text" name="Clasa" placeholder="    Scrieti clasa aici">
 </div>
@@ -61,7 +61,7 @@
 
   <input type="radio" name="q6" value="4"> D.Amfiartroze <br><br>
 
-  <input class="bg-transparent border-black mr-6 text-xl" type="submit" name="Trimite" value="Trimite raspunsul">
+  <input class="bg-transparent border-black mr-6 text-xl mb-8" type="submit" name="Trimite" value="Trimite raspunsul">
 
   </form>
   </blockquote>
