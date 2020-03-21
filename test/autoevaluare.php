@@ -51,38 +51,6 @@ $RaspunsuriCorecte = 1;
 		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
 	}
 
-	if ( !isset( $_POST[ 'q7' ] ) || strlen( $_POST[ 'q7'] ) == 0 )
-	{
-	}
-	elseif ($_POST['q7'] == '5')
-	{
-		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
-	}
-
-	if ( !isset( $_POST[ 'q8' ] ) || strlen( $_POST[ 'q8'] ) == 0 )
-	{
-	}
-	elseif ($_POST['q8'] == '5')
-	{
-		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
-	}
-
-	if ( !isset( $_POST[ 'q9' ] ) || strlen( $_POST[ 'q9'] ) == 0 )
-	{
-	}
-	elseif ($_POST['q9'] == '4')
-	{
-		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
-	}
-
-	if ( !isset( $_POST[ 'q10' ] ) || strlen( $_POST[ 'q10'] ) == 0 )
-	{
-	}
-	elseif ($_POST['q10'] == '4')
-	{
-		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
-	}
-    
     echo '<div align="center">';
 	echo 'Raspunsuri corecte : '.$RaspunsuriCorecte ;
 
@@ -98,9 +66,9 @@ $RaspunsuriCorecte = 1;
     // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
-    } 
-    
-    
+    }
+
+
     $sql = "INSERT INTO Users (Nume, Prenume, Clasa, Punctaj)
     VALUES ('". $_POST['Nume']."', '". $_POST['Prenume']. "', '". $_POST['Clasa']."', '".$RaspunsuriCorecte."')";
 
@@ -113,9 +81,9 @@ $RaspunsuriCorecte = 1;
     $sql = "SELECT * FROM Users ORDER BY Punctaj DESC LIMIT 10";
     $result = $conn->query($sql);
 
-    
+
     echo "<br>";
-    
+
     if ($result->num_rows > 0) {
         // output data of each row
         $it = 1;
@@ -136,16 +104,16 @@ $RaspunsuriCorecte = 1;
             echo '<td>'.$row["Clasa"].'</td>';
             echo '<td>'.$row["Punctaj"].'</td>';
             $it = $it + 1;
-            
+
         }
     } else {
         echo "0 results";
     }
     echo '</div>';
     $conn->close();
-    
+
     echo '</blockquote>
 </body>
 
 </html> ';
-?> 
+?>

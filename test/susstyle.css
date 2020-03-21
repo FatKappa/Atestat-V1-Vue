@@ -9,7 +9,7 @@ h1 { color: #ffffff;
 	font-style: italic;
 	font-size: 20px;
 	}
-h2 { 
+h2 {
 color: #1E90FF;
 font-family: Monotype Corsiva;
 font-size: 40px;
@@ -30,9 +30,9 @@ font-size: 35px;
 font-style: italic;
 font-weight: 1000;
 text-align: center;
-color:#1E90FF; 
+color:#1E90FF;
 }
-h4 { 
+h4 {
 color: #1E90FF;
 font-family: Monotype Corsiva;
 font-size: 130px;
@@ -44,10 +44,17 @@ text-align: center;
 h5 {
 font-family: Times New Roman;
 font-size: 16px;
-color: 	 bleack; 
+color: 	 bleack;
 }
 h6 { color: #1E90FF;
 font-family: Times New Roman;
 font-size: 14px;
 font-style: bold;
 text-align: center;}
+textarea {
+    background-color:transparent;
+    color:white;
+}
+textarea::placeholder {
+  color: white;
+}
