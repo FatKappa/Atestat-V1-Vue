@@ -20,7 +20,11 @@
           <!-- dropdown  terminat -->
           <a href="#" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/PgMeniu2">Evolutia pe piata</router-link></a>
           <!-- mobile responsive terminat-->
+          <div>
+              <a href="" @click="isOpen=false" class="mr-2 hover:rounded-sm p-2 rounded-sm hover:text-blue-600 inline-block text-xl md:text-2xl"><router-link to="/Testare">Testare</router-link></a>
+          </div>
         </div >
+
         <div class="py-2 px-4 md:border-0">
           <a href="#" @click="isOpen=false" class="hover:rounded-sm rounded-sm p-2 hover:text-blue-600  text-xl md:text-2xl"><router-link to="/About"><i class="fa fa-address-book pr-2 hidden md:inline"></i>Contact</router-link></a>
         </div>

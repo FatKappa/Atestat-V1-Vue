@@ -1,0 +1,53 @@
+body {
+	background-image: url("../imagini/0052.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+	background-attachment: fixed;
+	}
+h1 { color: #ffffff;
+	font-family: Monotype Corsiva;
+	font-style: italic;
+	font-size: 20px;
+	}
+h2 { 
+color: #1E90FF;
+font-family: Monotype Corsiva;
+font-size: 40px;
+font-style: italic;
+font-weight: 1000;
+text-align: center;
+}
+p {
+font-family: Monotype Corsiva;
+font-size: 35px;
+font-style: italic;
+font-weight: 1000;
+text-align: center;
+}
+h3 {
+font-family: Monotype Corsiva;
+font-size: 35px;
+font-style: italic;
+font-weight: 1000;
+text-align: center;
+color:#1E90FF; 
+}
+h4 { 
+color: #1E90FF;
+font-family: Monotype Corsiva;
+font-size: 130px;
+font-style: bold;
+font-style: italic;
+font-weight: 1000;
+text-align: center;
+}
+h5 {
+font-family: Times New Roman;
+font-size: 16px;
+color: 	 bleack; 
+}
+h6 { color: #1E90FF;
+font-family: Times New Roman;
+font-size: 14px;
+font-style: bold;
+text-align: center;}
