@@ -58,7 +58,7 @@ $RaspunsuriCorecte = 1;
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "Scheletul";
+    $dbname = "AMD";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);

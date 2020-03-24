@@ -5,7 +5,7 @@
   <br>
   <p><b>Evaluare</b></p>
 
-  <form action="autoevaluare.php" method="post">
+  <form action="./test/autoevaluare.php" method="post">
 
   <div class="mt-12 mb-5">Nume: <input class="bg-transparent border-black ml-6" type="text" name="Nume" placeholder="   Scrieti numele aici"> <br>
   Prenume: <input class="bg-transparent border-black" type="text" name="Prenume" placeholder="    Scrieti prenumele aici"> <br>
