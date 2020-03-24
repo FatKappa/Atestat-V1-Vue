@@ -60,10 +60,11 @@
   <input type="radio" name="q6" value="3"> C.Artrodii <br>
 
   <input type="radio" name="q6" value="4"> D.Amfiartroze <br><br>
-
-  <input class="bg-transparent border-black mr-6 text-xl mb-8" type="submit" name="Trimite" value="Trimite raspunsul">
-
+<div class="border-solid border-black border-2 w-2/12 text-center">
+  <input class="bg-transparent border-black mr-6 text-xl" type="submit" name="Trimite" value="Trimite raspunsul">
+</div>
   </form>
+  <br><br>
   </blockquote>
 </div>
 </template>
