@@ -12,9 +12,8 @@
             <button @click="isOpen=!isOpen"  class=" mr-2 p-2 hover:text-blue-600 text-xl md:text-2xl focus:hidden"><router-link to="/PgMeniu1">Introducere</router-link></button>
             <div :class="isOpen ? 'block' : 'hidden'" class="absolute mt-2 top-6 w-full">
               <a href="#inceputuri" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">1. Inceputuri</a>
-              <a href="#" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">2. Fin. sec. XX</a>
-              <a href="#" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">3. Inc. sec. XXI</a>
-              <a href="#" @click="isOpen=false" class="w-full overflow-auto block p-2 text-white bg-black text-lg hover:bg-blue-700 hover:text-white rounded-b-lg">4. Astazi</a>
+              <a href="#incsecXXI" @click="isOpen=false" class="w-full overflow-auto block px-2 text-white bg-black pt-2 text-lg hover:bg-blue-700 hover:text-white">2. Inc. sec. XXI</a>
+              <a href="#" @click="isOpen=false" class="w-full overflow-auto block p-2 text-white bg-black text-lg hover:bg-blue-700 hover:text-white rounded-b-lg">3. Astazi</a>
             </div>
           </div>
           <!-- dropdown  terminat -->
