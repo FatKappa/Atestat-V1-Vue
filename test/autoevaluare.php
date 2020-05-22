@@ -2,7 +2,7 @@
 echo '<html>
 <head>
 <title>
-Andreea
+Vlad
 </title>
 <link rel="stylesheet" type="text/css" href="./css/susstyle.css">
 </head>';
