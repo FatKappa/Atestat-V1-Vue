@@ -30,7 +30,7 @@ $RaspunsuriCorecte = 1;
 	if ( !isset( $_POST[ 'q3' ] ) || strlen( $_POST[ 'q3'] ) == 0 )
 	{
 	}
-	elseif ($_POST['q3'] == '5')
+	elseif ($_POST['q3'] == '2')
 	{
 		$RaspunsuriCorecte  = $RaspunsuriCorecte + 1;
 	}

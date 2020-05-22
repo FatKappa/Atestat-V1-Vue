@@ -78,12 +78,37 @@
 <p class="text-2xl ml-6 mt-8">Compania AMD va trece la o metologie de proiectare modulară numită "M-SPACE", unde două nuclee noi cu numele de cod "Bulldozer" și "Bobcat" vor fi lansate în 2009.</p>
 <p class="text-2xl ml-6 mt-6">Nucleul "Bulldozer" vor fi orientate spre produse cu consum de la 10-100 W, cu optimizare pentru raporturile de performnță per watt și calcule de înaltă performanță. Ambele nuclee vor avea posibilitatea de a integra în sine nuclee grafice DirectX compatibile sub emblema Fusion, sau vor fi disponibile ca un produs independent adică un procesor de uz general.</p>
 </div>
+<div  id="astazi" class="w-1/12"></div>
 <!--al cincilea screen-->
 <!--al saselea screen-->
 <div class="min-h-screen">
+<p class="mt-14 ml-6 text-5xl text-black"><u>Astăzi</u></p>
+<p class="text-2xl ml-6 mt-8">In zilele de astazi, deja AMD ajunge in varful producatorilor de procesoare, depasind compania Intel pe toate laturile, de la procesoare de server, procesoare speciale pentru grafica, pana la procesoare de gaming</p>
+<p class="text-2xl ml-6 mt-8">Mai jos am sa las niste exemple de procesoare din fiecare domeniu in urmatoarea ordine: server, multi-threading, gaming.
+<div class="w-full flex">
+<img src="@/assets/images/epyc.jpg" class="w-1/6 ml-auto mt-8"><p class="text-l mt-12"># of CPU Cores:64<br>
+# of Threads: 128<br>
+Max Boost Clock: 3.35GHz<br>
+Base Clock: 2.0GHz<br>
+Default TDP / TDP: 200W</p>
+<img src="@/assets/images/threadripper.jpg" class="w-1/6 mt-8">
+<p class="text-l mt-12"># of CPU Cores: 32<br>
+# of Threads: 64<br>
+Max Boost Clock: 4.5GHz<br>
+Base Clock: 3.7GHz<br>
+TDP: 280W</p>
+<img src="@/assets/images/ryzen.jpg" class="w-1/6 mt-8">
+<p class="text-l mt-12 mr-auto"># of CPU Cores: 16<br>
+# of Threads: 32<br>
+Max Boost Clock: 4.9GHz<br>
+Base Clock: 4GHz<br>
+TDP: 95W</p>
 
 </div>
+<p class="text-2xl ml-6 mt-8">Acestea sunt cele mai puternice procesoare momentan, fiind foarte bune si la un pret mult mai scazut decat al concurentei</p>
+</div>
 <!--al saselea screen-->
+
   </div>
 </template>
 

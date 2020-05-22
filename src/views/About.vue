@@ -38,13 +38,7 @@
     </div>
         </div>
 </div>
-              <!-- dreapta -->
-          <div class="w-5/12 ml-4 md:text-lg lg:text-2xl sm:min-h-screen">
-              <div class="mt-30 sm:w-full">
-    <h1 class="uppercase">III. Scurt istoric</h1>
-    <p class="text-base mt-12 ml-4">In curand</p>
-    </div>
-      </div>
+
 
           </div>
       </div>
